@@ -1,0 +1,58 @@
+.App {
+  padding: 20px;
+}
+
+.shortener,
+.getinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.inputContainer,
+.outputContainer {
+  padding: 20px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px
+}
+
+.inputHeader{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.input {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input,button,
+.output {
+  border: none;
+  padding: 8px;
+  background-color: #ddd;
+  border-radius: 3px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.output {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.domainContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
